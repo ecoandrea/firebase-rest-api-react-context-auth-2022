@@ -5,8 +5,11 @@ const LayoutRoot = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
-      <p>Footer</p>
+      <main className="container">
+        <Outlet />
+      </main>
+
+      <p className="container">Footer</p>
     </>
   );
 };
